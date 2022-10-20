@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Oct 20 00:50:24 2022
+# Process ID: 14953
+# Current directory: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.runs/zybo_z7_20_base_2021_1_proc_sys_reset_0_2_synth_1
+# Command line: vivado -log zybo_z7_20_base_2021_1_proc_sys_reset_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zybo_z7_20_base_2021_1_proc_sys_reset_0_2.tcl
+# Log file: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.runs/zybo_z7_20_base_2021_1_proc_sys_reset_0_2_synth_1/zybo_z7_20_base_2021_1_proc_sys_reset_0_2.vds
+# Journal file: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.runs/zybo_z7_20_base_2021_1_proc_sys_reset_0_2_synth_1/vivado.jou
+#-----------------------------------------------------------
+source zybo_z7_20_base_2021_1_proc_sys_reset_0_2.tcl -notrace

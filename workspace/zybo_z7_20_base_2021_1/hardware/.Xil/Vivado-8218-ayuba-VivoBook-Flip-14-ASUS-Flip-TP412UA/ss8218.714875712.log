@@ -1,0 +1,35 @@
+srcscan starts
+=============== Using vdb files for VHDL std libs ===========
+INFO: The vhdl library search path for library "std" is now "/home/ayuba/tools/Xilinx/Vivado/2021.1/data/precomp_hsv/vhdl/std" (VHDL-1505)
+INFO: The vhdl library search path for library "synopsys" is now "/home/ayuba/tools/Xilinx/Vivado/2021.1/data/precomp_hsv/vhdl/synopsys" (VHDL-1505)
+INFO: The vhdl library search path for library "ieee" is now "/home/ayuba/tools/Xilinx/Vivado/2021.1/data/precomp_hsv/vhdl/ieee" (VHDL-1505)
+INFO: The vhdl library search path for library "unimacro" is now "/home/ayuba/tools/Xilinx/Vivado/2021.1/data/precomp_hsv/vhdl/unimacro" (VHDL-1505)
+INFO: The vhdl library search path for library "unisim" is now "/home/ayuba/tools/Xilinx/Vivado/2021.1/data/precomp_hsv/vhdl/unisim" (VHDL-1505)
+INFO: The vhdl library search path for library "vl" is now "/home/ayuba/tools/Xilinx/Vivado/2021.1/data/precomp_hsv/vhdl/vl" (VHDL-1505)
+INFO: The vhdl library search path for library "xpm" is now "/home/ayuba/tools/Xilinx/Vivado/2021.1/data/precomp_hsv/vhdl/xpm" (VHDL-1505)
+-- Analyzing VHDL file "/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd" into library lib_cdc_v1_0_2 (VHDL-9003)
+INFO: analyzing entity 'cdc_sync' (VHDL-1012)
+INFO: analyzing architecture 'implementation' of entity 'cdc_sync' (VHDL-9006)
+-- Analyzing VHDL file "/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" into library proc_sys_reset_v5_0_13 (VHDL-9003)
+INFO: analyzing entity 'upcnt_n' (VHDL-1012)
+INFO: analyzing architecture 'imp' of entity 'upcnt_n' (VHDL-9006)
+INFO: analyzing entity 'sequence_psr' (VHDL-1012)
+INFO: analyzing architecture 'imp' of entity 'sequence_psr' (VHDL-9006)
+INFO: analyzing entity 'lpf' (VHDL-1012)
+INFO: analyzing architecture 'imp' of entity 'lpf' (VHDL-9006)
+INFO: analyzing entity 'proc_sys_reset' (VHDL-1012)
+INFO: analyzing architecture 'imp' of entity 'proc_sys_reset' (VHDL-9006)
+-- Analyzing VHDL file "/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ip/zybo_z7_20_base_2021_1_proc_sys_reset_0_1/sim/zybo_z7_20_base_2021_1_proc_sys_reset_0_1.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'zybo_z7_20_base_2021_1_proc_sys_reset_0_1' (VHDL-1012)
+INFO: analyzing architecture 'zybo_z7_20_base_2021_1_proc_sys_reset_0_1_arch' of entity 'zybo_z7_20_base_2021_1_proc_sys_reset_0_1' (VHDL-9006)
+Listing tops:
+VHDLTop: library:xil_defaultlib entity:zybo_z7_20_base_2021_1_proc_sys_reset_0_1 arch:
+VHDLTop: library:xil_defaultlib entity:zybo_z7_20_base_2021_1_proc_sys_reset_0_1 arch:
+END of tops
+/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ip/zybo_z7_20_base_2021_1_proc_sys_reset_0_1/sim/zybo_z7_20_base_2021_1_proc_sys_reset_0_1.vhd(59): INFO: executing 'zybo_z7_20_base_2021_1_proc_sys_reset_0_1_default(zybo_z7_20_base_2021_1_proc_sys_reset_0_1_arch)' (VHDL-1067)
+/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd(1264): INFO: executing '\proc_sys_reset(c_family="zynq",c_aux_reset_high='0')(1,4)\(imp)' (VHDL-1067)
+/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd(797): INFO: executing '\lpf(c_ext_rst_width=4,c_aux_rst_width=4,c_ext_reset_high='0',c_aux_reset_high='0')\(imp)' (VHDL-1067)
+/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd(64): INFO: executing '\cdc_sync(c_vector_width=2,c_mtbf_stages=4)\(implementation)' (VHDL-1067)
+/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd(286): INFO: executing 'sequence_psr_default(imp)' (VHDL-1067)
+/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_base_2021_1-vivado/zybo_z7_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd(109): INFO: executing '\upcnt_n(c_size=6)\(imp)' (VHDL-1067)
+srcscan exits with return value 0
