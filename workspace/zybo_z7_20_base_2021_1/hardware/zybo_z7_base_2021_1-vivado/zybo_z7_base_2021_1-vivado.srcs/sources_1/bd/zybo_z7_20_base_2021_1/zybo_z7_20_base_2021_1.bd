@@ -5,7 +5,7 @@
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../zybo_z7_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1",
       "name": "zybo_z7_20_base_2021_1",
-      "pfm_name": "vendor:lib:zybo_z7_20_base_2021_1:1.0",
+      "pfm_name": "xilinx:zybo-z7-20:zybo_z7_20_base_2021_1:0.0",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
       "tool_version": "2021.1",
