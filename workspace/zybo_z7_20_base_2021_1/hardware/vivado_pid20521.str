@@ -1,0 +1,578 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:07 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 20521
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Oct 23 18:41:47 CEST 2022
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Ubuntu
+OS Version: 5.4.0-131-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: 0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	/home/ayuba/tools/Xilinx/Vivado/2021.1/tps/lnx64/jre11.0.2
+Java executable: 	/home/ayuba/tools/Xilinx/Vivado/2021.1/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ayuba
+User home directory: /home/ayuba
+User working directory: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/ayuba/tools/Xilinx/Vivado
+HDI_APPROOT: /home/ayuba/tools/Xilinx/Vivado/2021.1
+RDI_DATADIR: /home/ayuba/tools/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: /home/ayuba/tools/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: /home/ayuba/.Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: /home/ayuba/.Xilinx/Vivado/2021.1/
+Vivado layouts directory: /home/ayuba/.Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	/home/ayuba/tools/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/vivado.log
+Vivado journal file: 	/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-20521-ayuba-VivoBook-Flip-14-ASUS-Flip-TP412UA
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/ayuba/tools/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: /home/ayuba/tools/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: /home/ayuba/tools/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: /home/ayuba/tools/Xilinx/Vivado/2021.1
+XILINX_SDK: /home/ayuba/tools/Xilinx/Vitis/2021.1
+XILINX_VITIS: /home/ayuba/tools/Xilinx/Vitis/2021.1
+XILINX_VIVADO: /home/ayuba/tools/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: /home/ayuba/tools/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	370 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,867 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,757 MB. GUI used memory: 71 MB. Current time: 10/23/22, 6:41:48 PM CEST
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.xpr", 0); // r
+// [GUI Memory]: 105 MB (+107375kb) [00:00:19]
+// [Engine Memory]: 1,763 MB (+1696971kb) [00:00:19]
+// Opening Vivado Project: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.xpr. Version: Vivado v2021.1 
+// bz (cs):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 126 MB (+17129kb) [00:00:25]
+// [Engine Memory]: 1,899 MB (+50010kb) [00:00:25]
+// WARNING: HEventQueue.dispatchEvent() is taking  4281 ms.
+// Tcl Message: open_project /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/ayuba/tools/Xilinx/Vivado/2021.1/data/ip'. 
+// Tcl Message: INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 7577.848 ; gain = 88.086 ; free physical = 124 ; free virtual = 3152 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,911 MB. GUI used memory: 85 MB. Current time: 10/23/22, 6:42:05 PM CEST
+// Project name: zybo_z7_20_base_2021_1-vivado; location: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bz
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.bd)]", 1, true, false, false, false, true, false); // D - Popup Trigger - Node
+// [GUI Memory]: 138 MB (+5477kb) [00:00:41]
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // an
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// aI (cs): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// bz (cs):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd] 
+// Tcl Message: INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'zybo_z7_20_base_2021_1' - hence not re-generating. 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd] 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,987 MB. GUI used memory: 87 MB. Current time: 10/23/22, 6:42:28 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,040 MB. GUI used memory: 86 MB. Current time: 10/23/22, 6:42:43 PM CEST
+// TclEventType: PROJECT_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,991 MB. GUI used memory: 87 MB. Current time: 10/23/22, 6:42:52 PM CEST
+// [Engine Memory]: 2,023 MB (+30718kb) [00:01:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,962 MB. GUI used memory: 87 MB. Current time: 10/23/22, 6:43:52 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,020 MB. GUI used memory: 98 MB. Current time: 10/23/22, 6:44:22 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,979 MB. GUI used memory: 87 MB. Current time: 10/23/22, 6:44:52 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,040 MB. GUI used memory: 87 MB. Current time: 10/23/22, 6:45:22 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,976 MB. GUI used memory: 88 MB. Current time: 10/23/22, 6:45:52 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,040 MB. GUI used memory: 87 MB. Current time: 10/23/22, 6:46:22 PM CEST
+// 'br' command handler elapsed time: 270 seconds
+// Elapsed time: 268 seconds
+dismissDialog("Managing Output Products"); // bz
+// [GUI Memory]: 147 MB (+2114kb) [00:05:20]
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aK
+// Elapsed time: 20 seconds
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Properties", 1); // i
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.bd)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.bd), zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.v)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.bd), zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.v), clk_wiz_0 : zybo_z7_20_base_2021_1_clk_wiz_0_0 (zybo_z7_20_base_2021_1_clk_wiz_0_0.xci)]", 4, false, false, false, false, false, true); // D - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.bd), zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.v)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, false, true); // D - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.bd), zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.v)]", 2); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.bd), zybo_z7_20_base_2021_1 (zybo_z7_20_base_2021_1.v)]", 2); // D
+// Elapsed time: 10 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, zybo_z7_20_base_2021_1]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, zybo_z7_20_base_2021_1]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, zybo_z7_20_base_2021_1]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// bz (cs):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd} 
+// Tcl Message: Reading block design file </home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  2313 ms.
+// JavaFX intialization before: 1666543692381
+// JavaFX initialization after: 1666543692966
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 7992.043 ; gain = 0.000 ; free physical = 153 ; free virtual = 3002 
+dismissDialog("Open Block Design"); // bz
+// [Engine Memory]: 2,138 MB (+14078kb) [00:06:39]
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK
+// HMemoryUtils.trashcanNow. Engine heap size: 2,143 MB. GUI used memory: 113 MB. Current time: 10/23/22, 6:48:18 PM CEST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, zybo_z7_20_base_2021_1]", 1, true, false, false, false, true, false); // D - Popup Trigger - Node
+// [GUI Memory]: 162 MB (+7926kb) [00:06:48]
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Properties", 1); // i
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 172 MB (+2500kb) [00:06:52]
+// TclEventType: RSB_BLOCK_SIZE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, zybo_z7_20_base_2021_1]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, zybo_z7_20_base_2021_1]", 1, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // an
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// aI (cs): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// bz (cs):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd] 
+// Tcl Message: INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'zybo_z7_20_base_2021_1' - hence not re-generating. 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd] 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,164 MB. GUI used memory: 108 MB. Current time: 10/23/22, 6:48:48 PM CEST
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,145 MB. GUI used memory: 167 MB. Current time: 10/23/22, 6:49:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,158 MB. GUI used memory: 124 MB. Current time: 10/23/22, 6:49:38 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,113 MB. GUI used memory: 108 MB. Current time: 10/23/22, 6:50:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,145 MB. GUI used memory: 108 MB. Current time: 10/23/22, 6:50:38 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,089 MB. GUI used memory: 108 MB. Current time: 10/23/22, 6:51:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,132 MB. GUI used memory: 108 MB. Current time: 10/23/22, 6:51:38 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,132 MB. GUI used memory: 108 MB. Current time: 10/23/22, 6:53:08 PM CEST
+// 'br' command handler elapsed time: 286 seconds
+// Elapsed time: 283 seconds
+dismissDialog("Managing Output Products"); // bz
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Elapsed time: 107 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, zybo_z7_20_base_2021_1]", 1, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // an
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// aI (cs): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// bz (cs):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd] 
+// Tcl Message: INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'zybo_z7_20_base_2021_1' - hence not re-generating. 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd] 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,142 MB. GUI used memory: 111 MB. Current time: 10/23/22, 6:55:49 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,160 MB. GUI used memory: 127 MB. Current time: 10/23/22, 6:56:19 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,091 MB. GUI used memory: 127 MB. Current time: 10/23/22, 6:56:49 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,144 MB. GUI used memory: 125 MB. Current time: 10/23/22, 6:57:19 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,160 MB. GUI used memory: 110 MB. Current time: 10/23/22, 6:57:49 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,091 MB. GUI used memory: 111 MB. Current time: 10/23/22, 6:58:19 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,144 MB. GUI used memory: 108 MB. Current time: 10/23/22, 6:58:50 PM CEST
+// 'br' command handler elapsed time: 291 seconds
+// Elapsed time: 287 seconds
+dismissDialog("Managing Output Products"); // bz
+// Elapsed time: 88 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, zybo_z7_20_base_2021_1]", 1, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // an
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cs): Create HDL Wrapper: addNotify
+// Elapsed time: 74 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'af' command handler elapsed time: 74 seconds
+dismissDialog("Create HDL Wrapper"); // a
+// Tcl Message: make_wrapper -files [get_files /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd] -top 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bz (cs):  Create HDL Wrapper : addNotify
+// Tcl Message: add_files -norecurse /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/hdl/zybo_z7_20_base_2021_1_wrapper.v 
+// Elapsed time: 16 seconds
+dismissDialog("Create HDL Wrapper"); // bz
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Elapsed time: 73 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+// Elapsed time: 14 seconds
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+// cD (cs): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 26 seconds
+// TclEventType: RSB_BLOCK_SIZE
+dismissDialog("Launch Runs"); // cD
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Oct 23 19:04:55 2022] Launched synth_1... Run output will be captured here: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.runs/synth_1/runme.log [Sun Oct 23 19:04:55 2022] Launched impl_1... Run output will be captured here: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.runs/impl_1/runme.log 
+// TclEventType: RSB_BLOCK_SIZE
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  2032 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1099 ms. Increasing delay to 3000 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RSB_BLOCK_SIZE
+// ag (cs): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 182 MB (+1217kb) [00:25:59]
+// Elapsed time: 161 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bz (cs):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,545 MB. GUI used memory: 120 MB. Current time: 10/23/22, 7:07:52 PM CEST
+// [Engine Memory]: 2,582 MB (+354173kb) [00:26:15]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: /home/ayuba/tools/Xilinx/Vivado/2021.1/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.7s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 2,715 MB (+4085kb) [00:26:17]
+// Device: addNotify
+// [GUI Memory]: 198 MB (+7163kb) [00:26:20]
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  4160 ms.
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z020clg400-1 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 9270.488 ; gain = 0.000 ; free physical = 1562 ; free virtual = 2409 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2021.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Constraints 18-5170] The checkpoint was created with non-default parameter values which do not match the current Vivado settings.  Mismatching parameters are: 
+// Tcl Message:   general.maxThreads 
+// Tcl Message: INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.17 . Memory (MB): peak = 9322.711 ; gain = 0.000 ; free physical = 990 ; free virtual = 1877 
+// Tcl Message: Restored from archive | CPU: 0.170000 secs | Memory: 1.468620 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.17 . Memory (MB): peak = 9322.711 ; gain = 0.000 ; free physical = 990 ; free virtual = 1877 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9322.711 ; gain = 0.000 ; free physical = 990 ; free virtual = 1877 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 9541.633 ; gain = 271.145 ; free physical = 735 ; free virtual = 1775 
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// Device view-level: 0.0
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// WARNING: HEventQueue.dispatchEvent() is taking  1026 ms.
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [Engine Memory]: 2,941 MB (+94669kb) [00:26:26]
+// 'dU' command handler elapsed time: 24 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  1964 ms.
+// Elapsed time: 25 seconds
+dismissDialog("Open Implemented Design"); // bz
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_PLATFORM, "Export Platform..."); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_PLATFORM
+// Tcl Command: 'get_property pfm_name [get_files -all {/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd}]'
+// Tcl Command: 'get_property pfm_name [get_files -all {/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd}]'
+// s (cs): Export Hardware Platform: addNotify
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 144 seconds
+selectRadioButton(PAResourceEtoH.ExportPlatformWizard_HARDWARE_AND_EMULATION_PLATFORM, "Hardware and hardware emulation. The project sources will be used for both hardware and hardware emulation."); // b
+// Elapsed time: 12 seconds
+selectButton("NEXT", "Next >"); // JButton
+selectCheckBox(PAResourceEtoH.ExportPlatformWizard_INCLUDE_BITSTREAM, "Include bitstream", true); // g: TRUE
+// [GUI Memory]: 211 MB (+3003kb) [00:30:41]
+// Elapsed time: 306 seconds
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 20 seconds
+setText(PAResourceEtoH.ExportPlatformWizard_PROPERTY_NAME, (String) null); // aa
+// Elapsed time: 16 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // an
+// Elapsed time: 68 seconds
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 104 seconds
+setText(PAResourceEtoH.ExportPlatformWizard_OUTPUT_DIRECTORY, "/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado"); // ao
+selectButton("NEXT", "Next >"); // JButton
+// Tcl Command: 'get_property pfm_name [get_files -all {/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd}]'
+// Tcl Command: 'set_property pfm_name {xilinx:zybo-z7-20:zybo_z7_20_base_2021_1:0.0} [get_files -all {/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd}]'
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Command: 'set_property platform.name {zybo_z7_20_base_2021_1} [current_project]'
+// TclEventType: PROJECT_CHANGE
+// Tcl Command: 'get_property platform.description [current_project]'
+// Tcl Command: 'get_property platform.design_intent.embedded [current_project]'
+// Tcl Command: 'set_property platform.design_intent.embedded {true} [current_project]'
+// TclEventType: PROJECT_CHANGE
+// Tcl Command: 'get_property platform.design_intent.datacenter [current_project]'
+// Tcl Command: 'set_property platform.design_intent.datacenter {false} [current_project]'
+// TclEventType: PROJECT_CHANGE
+// Tcl Command: 'get_property platform.design_intent.server_managed [current_project]'
+// Tcl Command: 'set_property platform.design_intent.server_managed {false} [current_project]'
+// TclEventType: PROJECT_CHANGE
+// Tcl Command: 'get_property platform.design_intent.external_host [current_project]'
+// Tcl Command: 'set_property platform.design_intent.external_host {false} [current_project]'
+// TclEventType: PROJECT_CHANGE
+// Tcl Command: 'get_property platform.default_output_type [current_project]'
+// Tcl Command: 'set_property platform.default_output_type {sd_card} [current_project]'
+// TclEventType: PROJECT_CHANGE
+// Tcl Command: 'get_property platform.platform_state [current_project]'
+// Tcl Command: 'get_property platform.uses_pr [current_project]'
+// Tcl Command: 'set_property platform.uses_pr {false} [current_project]'
+// Tcl Command: 'get_property platform.run.steps.init_design.tcl.pre [current_project]'
+// Tcl Command: 'get_property platform.run.steps.init_design.tcl.post [current_project]'
+// Tcl Command: 'get_property platform.run.steps.opt_design.tcl.pre [current_project]'
+// Tcl Command: 'get_property platform.run.steps.opt_design.tcl.post [current_project]'
+// Tcl Command: 'get_property platform.run.steps.power_opt_design.tcl.pre [current_project]'
+// Tcl Command: 'get_property platform.run.steps.power_opt_design.tcl.post [current_project]'
+// Tcl Command: 'get_property platform.run.steps.place_design.tcl.pre [current_project]'
+// Tcl Command: 'get_property platform.run.steps.place_design.tcl.post [current_project]'
+// Tcl Command: 'get_property platform.run.steps.post_place_power_opt_design.tcl.pre [current_project]'
+// Tcl Command: 'get_property platform.run.steps.post_place_power_opt_design.tcl.post [current_project]'
+// Tcl Command: 'get_property platform.run.steps.phys_opt_design.tcl.pre [current_project]'
+// Tcl Command: 'get_property platform.run.steps.phys_opt_design.tcl.post [current_project]'
+// Tcl Command: 'get_property platform.run.steps.route_design.tcl.pre [current_project]'
+// Tcl Command: 'get_property platform.run.steps.route_design.tcl.post [current_project]'
+// Tcl Command: 'get_property platform.run.steps.post_route_phys_opt_design.tcl.pre [current_project]'
+// Tcl Command: 'get_property platform.run.steps.post_route_phys_opt_design.tcl.post [current_project]'
+// Tcl Command: 'get_property platform.pre_sys_link_overlay_tcl_hook [current_project]'
+// Tcl Command: 'get_property platform.post_sys_link_overlay_tcl_hook [current_project]'
+// Tcl Command: 'get_property platform.synth_constraint_files [current_project]'
+// Tcl Command: 'get_property platform.impl_constraint_files [current_project]'
+selectButton("FINISH", "Finish"); // JButton
+// 'j' command handler elapsed time: 696 seconds
+// Tcl Message: set_property pfm_name {xilinx:zybo-z7-20:zybo_z7_20_base_2021_1:0.0} [get_files -all {/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd}] 
+// Tcl Message: set_property platform.name {zybo_z7_20_base_2021_1} [current_project] 
+// Tcl Message: set_property platform.design_intent.embedded {true} [current_project] 
+// Tcl Message: set_property platform.design_intent.datacenter {false} [current_project] 
+// Tcl Message: set_property platform.design_intent.server_managed {false} [current_project] 
+// Tcl Message: set_property platform.design_intent.external_host {false} [current_project] 
+// Tcl Message: set_property platform.default_output_type {sd_card} [current_project] 
+// Tcl Message: set_property platform.uses_pr {false} [current_project] 
+dismissDialog("Export Hardware Platform"); // s
+// bz (cs):  Export Hardware Platform : addNotify
+// Tcl Message: write_hw_platform -include_bit -force -file /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1_wrapper.xsa 
+// Tcl Message: INFO: [Vivado 12-4895] Creating Hardware Platform: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1_wrapper.xsa ... 
+// Tcl Message: INFO: [Hsi 55-2053] elapsed time for repository (/home/ayuba/tools/Xilinx/Vivado/2021.1/data/embeddedsw) loading 0 seconds 
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: MSGMGR_REFRESH_MSG
+// HMemoryUtils.trashcanNow. Engine heap size: 3,055 MB. GUI used memory: 154 MB. Current time: 10/23/22, 7:19:59 PM CEST
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: INFO: [Vivado 12-12466] The Hardware Platform can be used for Hardware and Hardware Emulation INFO: [Vivado 12-4896] Successfully created Hardware Platform: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1_wrapper.xsa 
+// Tcl Message: write_hw_platform: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 9606.500 ; gain = 64.867 ; free physical = 228 ; free virtual = 1643 
+dismissDialog("Export Hardware Platform"); // bz
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_PLATFORM, "Export Platform..."); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_PLATFORM
+// Tcl Command: 'get_property pfm_name [get_files -all {/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd}]'
+// Tcl Command: 'get_property pfm_name [get_files -all {/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.srcs/sources_1/bd/zybo_z7_20_base_2021_1/zybo_z7_20_base_2021_1.bd}]'
+// s (cs): Export Hardware Platform: addNotify
+selectButton("NEXT", "Next >"); // JButton
+// 'j' command handler elapsed time: 6 seconds
+dismissDialog("Export Hardware Platform"); // s
+// Elapsed time: 898 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "2 warnings"); // h
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// Elapsed time: 24 seconds
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceOtoP.ProjectSummaryUtilizationPanel_TABLE, "Table", 1); // f
+selectTableHeader(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, "Available", 2); // s
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceOtoP.ProjectSummaryUtilizationPanel_GRAPH, "Graph", 0); // f

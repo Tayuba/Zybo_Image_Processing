@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
-| Date         : Fri Oct 21 22:12:25 2022
+| Date         : Sun Oct 23 19:05:46 2022
 | Host         : ayuba-VivoBook-Flip-14-ASUS-Flip-TP412UA running 64-bit Ubuntu 20.04.5 LTS
 | Command      : report_utilization -file zybo_z7_20_base_2021_1_wrapper_utilization_synth.rpt -pb zybo_z7_20_base_2021_1_wrapper_utilization_synth.pb
 | Design       : zybo_z7_20_base_2021_1_wrapper

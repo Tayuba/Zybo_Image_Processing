@@ -5,7 +5,7 @@
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../zybo_z7_20_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1",
       "name": "zybo_z7_20_base_2021_1",
-      "pfm_name": "xilinx:zybo-z7-20:namezybo_z7_20_base_2021_1:0.0",
+      "pfm_name": "xilinx:zybo-z7-20:zybo_z7_20_base_2021_1:0.0",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
       "tool_version": "2021.1",
@@ -1594,7 +1594,7 @@
           }
         },
         "pfm_attributes": {
-          "AXI_PORT": "M01_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M02_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M03_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M04_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M05_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M06_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M07_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M08_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M09_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M10_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M11_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M12_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M13_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M14_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M15_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M16_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M17_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M18_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M19_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M20_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M21_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M22_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M23_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M24_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M26_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M27_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M28_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M29_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M30_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M31_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"}"
+          "AXI_PORT": "M01_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M02_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M03_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M04_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M05_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M06_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M07_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M08_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M09_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M10_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M11_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M12_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M13_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M14_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M15_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M16_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M17_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M18_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M19_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M20_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M21_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M22_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M23_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M24_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M25_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M26_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M27_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M28_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M29_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M30_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M31_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"}"
         }
       },
       "rst_ps7_0_50M": {
@@ -1670,8 +1670,8 @@
       "clk_wiz_0_locked": {
         "ports": [
           "clk_wiz_0/locked",
-          "proc_sys_reset_1/dcm_locked",
           "proc_sys_reset_0/dcm_locked",
+          "proc_sys_reset_1/dcm_locked",
           "proc_sys_reset_2/dcm_locked",
           "proc_sys_reset_3/dcm_locked",
           "proc_sys_reset_4/dcm_locked"

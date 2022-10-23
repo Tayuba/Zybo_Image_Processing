@@ -1,7 +1,7 @@
 -- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
--- Date        : Fri Oct 21 15:51:27 2022
+-- Date        : Sun Oct 23 18:08:30 2022
 -- Host        : ayuba-VivoBook-Flip-14-ASUS-Flip-TP412UA running 64-bit Ubuntu 20.04.5 LTS
 -- Command     : write_vhdl -force -mode synth_stub -rename_top zybo_z7_20_base_2021_1_rst_ps7_0_50M_0 -prefix
 --               zybo_z7_20_base_2021_1_rst_ps7_0_50M_0_ zybo_z7_20_base_2021_1_proc_sys_reset_0_0_stub.vhdl

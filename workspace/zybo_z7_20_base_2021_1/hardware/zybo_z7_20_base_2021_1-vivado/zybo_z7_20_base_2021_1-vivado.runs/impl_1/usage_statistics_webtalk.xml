@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Fri Oct 21 22:13:42 2022'>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Sun Oct 23 19:07:01 2022'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="3247384" description="" />
-  <keyValuePair key="date_generated" value="Fri Oct 21 22:13:41 2022" description="" />
+  <keyValuePair key="date_generated" value="Sun Oct 23 19:07:01 2022" description="" />
   <keyValuePair key="os_platform" value="LIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2021.1 (64-bit)" description="" />
-  <keyValuePair key="project_id" value="1f1bf11575874e599f09099b24c1eace" description="" />
+  <keyValuePair key="project_id" value="34176735084841568a39b4eed1c53d8f" description="" />
   <keyValuePair key="project_iteration" value="1" description="" />
   <keyValuePair key="random_id" value="576c6a571536554d9aa10ae9379ed01e" description="" />
   <keyValuePair key="registration_id" value="576c6a571536554d9aa10ae9379ed01e" description="" />
@@ -20,7 +20,7 @@
  </section>
  <section name="user_environment" level="1" order="2" description="">
   <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i3-8130U CPU @ 2.20GHz" description="" />
-  <keyValuePair key="cpu_speed" value="2929.630 MHz" description="" />
+  <keyValuePair key="cpu_speed" value="2915.594 MHz" description="" />
   <keyValuePair key="os_name" value="Ubuntu" description="" />
   <keyValuePair key="os_release" value="Ubuntu 20.04.5 LTS" description="" />
   <keyValuePair key="system_ram" value="3.000 GB" description="" />
@@ -668,7 +668,7 @@
    <keyValuePair key="output_load" value="5.000000" description="" />
    <keyValuePair key="output_toggle" value="12.500000" description="" />
    <keyValuePair key="package" value="clg400" description="" />
-   <keyValuePair key="pct_clock_constrained" value="0.970000" description="" />
+   <keyValuePair key="pct_clock_constrained" value="1.090000" description="" />
    <keyValuePair key="pct_inputs_defined" value="0" description="" />
    <keyValuePair key="platform" value="lin64" description="" />
    <keyValuePair key="process" value="typical" description="" />
@@ -1081,10 +1081,10 @@
    <keyValuePair key="-verilog_define" value="default::[not_specified]" description="" />
   </section>
   <section name="usage" level="2" order="2" description="">
-   <keyValuePair key="elapsed" value="00:00:25s" description="" />
+   <keyValuePair key="elapsed" value="00:00:22s" description="" />
    <keyValuePair key="hls_ip" value="0" description="" />
-   <keyValuePair key="memory_gain" value="135.617MB" description="" />
-   <keyValuePair key="memory_peak" value="2477.168MB" description="" />
+   <keyValuePair key="memory_gain" value="130.625MB" description="" />
+   <keyValuePair key="memory_peak" value="2477.176MB" description="" />
   </section>
  </section>
  <section name="unisim_transformation" level="1" order="11" description="">
@@ -1130,62 +1130,50 @@
  </section>
  <section name="vivado_usage" level="1" order="12" description="">
   <section name="gui_handlers" level="2" order="1" description="">
-   <keyValuePair key="basedialog_ok" value="10" description="" />
-   <keyValuePair key="basedialog_yes" value="3" description="" />
+   <keyValuePair key="applyrsbmultiautomationdialog_checkbox_tree" value="1" description="" />
+   <keyValuePair key="basedialog_ok" value="9" description="" />
+   <keyValuePair key="basedialog_yes" value="1" description="" />
    <keyValuePair key="boardchooser_board_table" value="1" description="" />
    <keyValuePair key="boardchooser_vendor" value="1" description="" />
    <keyValuePair key="coretreetablepanel_core_tree_table" value="14" description="" />
    <keyValuePair key="createnewdiagramdialog_design_name" value="1" description="" />
-   <keyValuePair key="exportplatformwizard_hardware_and_emulation_platform" value="1" description="" />
-   <keyValuePair key="exportplatformwizard_include_bitstream" value="3" description="" />
-   <keyValuePair key="filesetpanel_file_set_panel_tree" value="9" description="" />
-   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="4" description="" />
+   <keyValuePair key="filesetpanel_file_set_panel_tree" value="24" description="" />
+   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="2" description="" />
    <keyValuePair key="gettingstartedview_create_new_project" value="1" description="" />
    <keyValuePair key="gictreetablepanel_gic_tree_table" value="4" description="" />
-   <keyValuePair key="launchpanel_generate_scripts_only" value="1" description="" />
-   <keyValuePair key="launchpanel_launch_runs_on_local_host" value="1" description="" />
-   <keyValuePair key="mainmenumgr_checkpoint" value="1" description="" />
-   <keyValuePair key="mainmenumgr_export" value="1" description="" />
-   <keyValuePair key="mainmenumgr_file" value="2" description="" />
-   <keyValuePair key="mainmenumgr_ip" value="1" description="" />
-   <keyValuePair key="mainmenumgr_project" value="2" description="" />
-   <keyValuePair key="mainmenumgr_text_editor" value="1" description="" />
    <keyValuePair key="mainmenumgr_window" value="2" description="" />
    <keyValuePair key="newprojectwizard_project_is_a_vitis_platform" value="1" description="" />
-   <keyValuePair key="pacommandnames_auto_update_hier" value="1" description="" />
    <keyValuePair key="pacommandnames_create_top_hdl" value="1" description="" />
-   <keyValuePair key="pacommandnames_export_platform" value="1" description="" />
    <keyValuePair key="pacommandnames_generate_composite_file" value="4" description="" />
    <keyValuePair key="pacommandnames_platformsetup_window" value="1" description="" />
-   <keyValuePair key="pacommandnames_zoom_fit" value="3" description="" />
-   <keyValuePair key="paviews_project_summary" value="1" description="" />
-   <keyValuePair key="platforminterfaceview_platform_interfaces" value="69" description="" />
-   <keyValuePair key="projectnamechooser_choose_project_location" value="1" description="" />
-   <keyValuePair key="projectnamechooser_project_name" value="2" description="" />
-   <keyValuePair key="rdicommands_paste" value="2" description="" />
+   <keyValuePair key="pacommandnames_zoom_fit" value="2" description="" />
+   <keyValuePair key="paviews_code" value="1" description="" />
+   <keyValuePair key="paviews_project_summary" value="2" description="" />
+   <keyValuePair key="platforminterfaceview_platform_interfaces" value="60" description="" />
+   <keyValuePair key="projectnamechooser_project_name" value="1" description="" />
    <keyValuePair key="rsbapplyautomationbar_run_block_automation" value="1" description="" />
-   <keyValuePair key="rsbapplyautomationbar_run_connection_automation" value="1" description="" />
-   <keyValuePair key="simpleoutputproductdialog_generate_output_products_immediately" value="3" description="" />
-   <keyValuePair key="syntheticagettingstartedview_recent_projects" value="2" description="" />
+   <keyValuePair key="rsbapplyautomationbar_run_connection_automation" value="2" description="" />
+   <keyValuePair key="simpleoutputproductdialog_generate_output_products_immediately" value="4" description="" />
+   <keyValuePair key="syntheticagettingstartedview_recent_projects" value="1" description="" />
    <keyValuePair key="systembuilderview_add_ip" value="4" description="" />
-   <keyValuePair key="tclobjecttreetable_treetable" value="3" description="" />
+   <keyValuePair key="systemtreeview_system_tree" value="2" description="" />
+   <keyValuePair key="tclobjecttreetable_treetable" value="1" description="" />
   </section>
   <section name="java_command_handlers" level="2" order="2" description="">
    <keyValuePair key="createblockdesign" value="1" description="" />
    <keyValuePair key="createtophdl" value="1" description="" />
-   <keyValuePair key="customizersbblock" value="3" description="" />
+   <keyValuePair key="customizersbblock" value="4" description="" />
    <keyValuePair key="editcopy" value="1" description="" />
    <keyValuePair key="editdelete" value="1" description="" />
    <keyValuePair key="editpaste" value="4" description="" />
    <keyValuePair key="managecompositetargets" value="4" description="" />
-   <keyValuePair key="newexporthardware" value="1" description="" />
    <keyValuePair key="newproject" value="1" description="" />
    <keyValuePair key="openplatformsetup" value="1" description="" />
-   <keyValuePair key="runbitgen" value="3" description="" />
-   <keyValuePair key="zoomfit" value="3" description="" />
+   <keyValuePair key="runbitgen" value="1" description="" />
+   <keyValuePair key="zoomfit" value="2" description="" />
   </section>
   <section name="other_data" level="2" order="3" description="">
-   <keyValuePair key="guimode" value="3" description="" />
+   <keyValuePair key="guimode" value="2" description="" />
   </section>
   <section name="project_data" level="2" order="4" description="">
    <keyValuePair key="constraintsetcount" value="0" description="" />
@@ -1195,12 +1183,12 @@
    <keyValuePair key="default_library" value="xil_defaultlib" description="" />
    <keyValuePair key="designmode" value="RTL" description="" />
    <keyValuePair key="export_simulation_activehdl" value="3" description="" />
-   <keyValuePair key="export_simulation_ies" value="3" description="" />
-   <keyValuePair key="export_simulation_modelsim" value="3" description="" />
-   <keyValuePair key="export_simulation_questa" value="3" description="" />
+   <keyValuePair key="export_simulation_ies" value="4" description="" />
+   <keyValuePair key="export_simulation_modelsim" value="4" description="" />
+   <keyValuePair key="export_simulation_questa" value="4" description="" />
    <keyValuePair key="export_simulation_riviera" value="3" description="" />
    <keyValuePair key="export_simulation_vcs" value="3" description="" />
-   <keyValuePair key="export_simulation_xsim" value="3" description="" />
+   <keyValuePair key="export_simulation_xsim" value="4" description="" />
    <keyValuePair key="implstrategy" value="Vivado Implementation Defaults" description="" />
    <keyValuePair key="launch_simulation_activehdl" value="0" description="" />
    <keyValuePair key="launch_simulation_ies" value="0" description="" />
@@ -1214,8 +1202,8 @@
    <keyValuePair key="synthesisstrategy" value="Vivado Synthesis Defaults" description="" />
    <keyValuePair key="target_language" value="Verilog" description="" />
    <keyValuePair key="target_simulator" value="XSim" description="" />
-   <keyValuePair key="totalimplruns" value="10" description="" />
-   <keyValuePair key="totalsynthesisruns" value="10" description="" />
+   <keyValuePair key="totalimplruns" value="11" description="" />
+   <keyValuePair key="totalsynthesisruns" value="11" description="" />
   </section>
  </section>
 </section>

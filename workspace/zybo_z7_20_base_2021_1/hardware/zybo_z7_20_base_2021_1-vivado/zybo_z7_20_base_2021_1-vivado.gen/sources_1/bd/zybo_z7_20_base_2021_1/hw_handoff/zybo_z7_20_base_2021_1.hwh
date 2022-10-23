@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Oct 21 15:48:36 2022" VIVADOVERSION="2021.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Oct 23 18:01:20 2022" VIVADOVERSION="2021.1">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo-z7-20:part0:1.0" DEVICE="7z020" NAME="zybo_z7_20_base_2021_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -2452,8 +2452,8 @@
         </PORT>
         <PORT DIR="O" NAME="locked" SIGIS="undef" SIGNAME="clk_wiz_0_locked">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="proc_sys_reset_1" PORT="dcm_locked"/>
             <CONNECTION INSTANCE="proc_sys_reset_0" PORT="dcm_locked"/>
+            <CONNECTION INSTANCE="proc_sys_reset_1" PORT="dcm_locked"/>
             <CONNECTION INSTANCE="proc_sys_reset_2" PORT="dcm_locked"/>
             <CONNECTION INSTANCE="proc_sys_reset_3" PORT="dcm_locked"/>
             <CONNECTION INSTANCE="proc_sys_reset_4" PORT="dcm_locked"/>
