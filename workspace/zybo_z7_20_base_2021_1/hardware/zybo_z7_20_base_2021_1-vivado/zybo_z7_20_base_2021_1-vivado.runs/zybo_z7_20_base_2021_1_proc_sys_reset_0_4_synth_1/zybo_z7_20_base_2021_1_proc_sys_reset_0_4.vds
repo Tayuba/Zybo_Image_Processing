@@ -2,8 +2,8 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Sun Oct 23 18:09:39 2022
-# Process ID: 13094
+# Start of session at: Fri Oct 28 22:57:44 2022
+# Process ID: 32584
 # Current directory: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.runs/zybo_z7_20_base_2021_1_proc_sys_reset_0_4_synth_1
 # Command line: vivado -log zybo_z7_20_base_2021_1_proc_sys_reset_0_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zybo_z7_20_base_2021_1_proc_sys_reset_0_4.tcl
 # Log file: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.runs/zybo_z7_20_base_2021_1_proc_sys_reset_0_4_synth_1/zybo_z7_20_base_2021_1_proc_sys_reset_0_4.vds
@@ -17,9 +17,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 13209
+INFO: [Synth 8-7075] Helper process launched with PID 32734
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 2516.570 ; gain = 0.000 ; free physical = 90 ; free virtual = 2001
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2501.742 ; gain = 0.000 ; free physical = 106 ; free virtual = 1214
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'zybo_z7_20_base_2021_1_proc_sys_reset_0_4' [/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ip/zybo_z7_20_base_2021_1_proc_sys_reset_0_4/synth/zybo_z7_20_base_2021_1_proc_sys_reset_0_4.vhd:74]
 	Parameter C_FAMILY bound to: zynq - type: string 
@@ -69,18 +69,18 @@ INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (5#1) [/home/ayuba/Z
 INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (6#1) [/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
 INFO: [Synth 8-256] done synthesizing module 'zybo_z7_20_base_2021_1_proc_sys_reset_0_4' (7#1) [/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.gen/sources_1/bd/zybo_z7_20_base_2021_1/ip/zybo_z7_20_base_2021_1_proc_sys_reset_0_4/synth/zybo_z7_20_base_2021_1_proc_sys_reset_0_4.vhd:74]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 2516.570 ; gain = 0.000 ; free physical = 88 ; free virtual = 443
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:55 . Memory (MB): peak = 2501.742 ; gain = 0.000 ; free physical = 169 ; free virtual = 984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 2516.570 ; gain = 0.000 ; free physical = 104 ; free virtual = 293
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:59 . Memory (MB): peak = 2501.742 ; gain = 0.000 ; free physical = 109 ; free virtual = 662
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 2516.570 ; gain = 0.000 ; free physical = 105 ; free virtual = 294
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:59 . Memory (MB): peak = 2501.742 ; gain = 0.000 ; free physical = 109 ; free virtual = 661
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2516.570 ; gain = 0.000 ; free physical = 1104 ; free virtual = 1378
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2501.742 ; gain = 0.000 ; free physical = 115 ; free virtual = 634
 INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -97,32 +97,32 @@ Parsing XDC File [/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/worksp
 Finished Parsing XDC File [/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.runs/zybo_z7_20_base_2021_1_proc_sys_reset_0_4_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2548.504 ; gain = 0.000 ; free physical = 1093 ; free virtual = 1820
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2533.656 ; gain = 0.000 ; free physical = 115 ; free virtual = 681
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 13 instances were transformed.
   FDR => FDRE: 12 instances
   SRL16 => SRL16E: 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2548.504 ; gain = 0.000 ; free physical = 1087 ; free virtual = 1818
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2533.656 ; gain = 0.000 ; free physical = 108 ; free virtual = 681
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 1049 ; free virtual = 1953
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:01:08 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 140 ; free virtual = 778
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 1050 ; free virtual = 1954
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:01:08 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 137 ; free virtual = 778
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.runs/zybo_z7_20_base_2021_1_proc_sys_reset_0_4_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 1051 ; free virtual = 1959
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:01:09 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 564 ; free virtual = 1212
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 1023 ; free virtual = 1959
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:01:09 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 825 ; free virtual = 1569
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -153,25 +153,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 994 ; free virtual = 1942
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:01:10 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 795 ; free virtual = 1621
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 834 ; free virtual = 1803
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:01:16 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 1357 ; free virtual = 2294
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 833 ; free virtual = 1803
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:01:16 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 1357 ; free virtual = 2294
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 831 ; free virtual = 1801
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:01:16 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 1355 ; free virtual = 2293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -189,37 +189,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 755 ; free virtual = 1749
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:01:21 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 1130 ; free virtual = 2205
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 755 ; free virtual = 1749
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:01:21 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 1130 ; free virtual = 2205
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 755 ; free virtual = 1749
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:01:21 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 1130 ; free virtual = 2205
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 755 ; free virtual = 1749
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:01:21 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 1130 ; free virtual = 2205
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 755 ; free virtual = 1749
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:01:21 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 1130 ; free virtual = 2205
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 755 ; free virtual = 1749
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:01:21 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 1130 ; free virtual = 2205
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -247,18 +247,18 @@ Report Cell Usage:
 |10    |FDSE  |     4|
 +------+------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 2548.504 ; gain = 31.934 ; free physical = 755 ; free virtual = 1749
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:01:21 . Memory (MB): peak = 2533.656 ; gain = 31.914 ; free physical = 1130 ; free virtual = 2205
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 2548.504 ; gain = 0.000 ; free physical = 802 ; free virtual = 1806
-Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 2548.512 ; gain = 31.934 ; free physical = 802 ; free virtual = 1806
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:01:16 . Memory (MB): peak = 2533.656 ; gain = 0.000 ; free physical = 1188 ; free virtual = 2263
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:01:22 . Memory (MB): peak = 2533.664 ; gain = 31.914 ; free physical = 1188 ; free virtual = 2264
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2548.512 ; gain = 0.000 ; free physical = 795 ; free virtual = 1802
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2533.664 ; gain = 0.000 ; free physical = 1175 ; free virtual = 2258
 INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2548.512 ; gain = 0.000 ; free physical = 802 ; free virtual = 1830
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2533.664 ; gain = 0.000 ; free physical = 1136 ; free virtual = 2285
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 9 instances were transformed.
   FDR => FDRE: 8 instances
@@ -268,10 +268,10 @@ Synth Design complete, checksum: 6d27fafe
 INFO: [Common 17-83] Releasing license: Synthesis
 43 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 2548.512 ; gain = 32.023 ; free physical = 949 ; free virtual = 1979
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:01:29 . Memory (MB): peak = 2533.664 ; gain = 32.023 ; free physical = 1285 ; free virtual = 2435
 INFO: [Common 17-1381] The checkpoint '/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.runs/zybo_z7_20_base_2021_1_proc_sys_reset_0_4_synth_1/zybo_z7_20_base_2021_1_proc_sys_reset_0_4.dcp' has been generated.
 INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP zybo_z7_20_base_2021_1_proc_sys_reset_0_4, cache-ID = 1827cf0a33a23cd0
 INFO: [Coretcl 2-1174] Renamed 6 cell refs.
 INFO: [Common 17-1381] The checkpoint '/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.runs/zybo_z7_20_base_2021_1_proc_sys_reset_0_4_synth_1/zybo_z7_20_base_2021_1_proc_sys_reset_0_4.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file zybo_z7_20_base_2021_1_proc_sys_reset_0_4_utilization_synth.rpt -pb zybo_z7_20_base_2021_1_proc_sys_reset_0_4_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Oct 23 18:10:43 2022...
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 28 22:59:47 2022...

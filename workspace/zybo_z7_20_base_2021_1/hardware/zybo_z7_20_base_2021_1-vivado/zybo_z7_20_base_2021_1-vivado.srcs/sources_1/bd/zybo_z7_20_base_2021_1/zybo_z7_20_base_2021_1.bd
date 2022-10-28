@@ -1334,7 +1334,7 @@
           }
         },
         "pfm_attributes": {
-          "CLOCK": "clk_out1 {id \"0\" is_default \"false\" proc_sys_reset \"/proc_sys_reset_0\" status \"fixed\" freq_hz \"50000000\"} clk_out2 {id \"1\" is_default \"true\" proc_sys_reset \"/proc_sys_reset_1\" status \"fixed\" freq_hz \"100000000\"} clk_out3 {id \"2\" is_default \"false\" proc_sys_reset \"/proc_sys_reset_2\" status \"fixed\" freq_hz \"150000000\"} clk_out4 {id \"3\" is_default \"false\" proc_sys_reset \"/proc_sys_reset_3\" status \"fixed\" freq_hz \"200000000\"} clk_out5 {id \"4\" is_default \"false\" proc_sys_reset \"/proc_sys_reset_4\" status \"fixed\" freq_hz \"300000000\"}"
+          "CLOCK": "clk_out1 {id \"0\" is_default \"false\" proc_sys_reset \"/proc_sys_reset_0\" status \"fixed\" freq_hz \"50000000\"} clk_out2 {id \"1\" is_default \"true\" proc_sys_reset \"/proc_sys_reset_1\" status \"fixed\" freq_hz \"100000000\"} clk_out3 {id \"2\" is_default \"false\" proc_sys_reset \"/proc_sys_reset_2\" status \"fixed\" freq_hz \"150000000\"} clk_out4 {id \"3\" is_default \"false\" proc_sys_reset \"/proc_sys_reset_3\" status \"fixed\" freq_hz \"200000000\"} clk_out5 {id \"5\" is_default \"false\" proc_sys_reset \"/proc_sys_reset_4\" status \"fixed\" freq_hz \"300000000\"}"
         }
       },
       "proc_sys_reset_0": {
@@ -1670,11 +1670,11 @@
       "clk_wiz_0_locked": {
         "ports": [
           "clk_wiz_0/locked",
-          "proc_sys_reset_0/dcm_locked",
-          "proc_sys_reset_1/dcm_locked",
-          "proc_sys_reset_2/dcm_locked",
+          "proc_sys_reset_4/dcm_locked",
           "proc_sys_reset_3/dcm_locked",
-          "proc_sys_reset_4/dcm_locked"
+          "proc_sys_reset_2/dcm_locked",
+          "proc_sys_reset_1/dcm_locked",
+          "proc_sys_reset_0/dcm_locked"
         ]
       },
       "processing_system7_0_FCLK_CLK0": {
@@ -1694,10 +1694,10 @@
           "processing_system7_0/FCLK_RESET0_N",
           "clk_wiz_0/resetn",
           "proc_sys_reset_0/ext_reset_in",
-          "proc_sys_reset_1/ext_reset_in",
           "proc_sys_reset_2/ext_reset_in",
           "proc_sys_reset_3/ext_reset_in",
           "proc_sys_reset_4/ext_reset_in",
+          "proc_sys_reset_1/ext_reset_in",
           "rst_ps7_0_50M/ext_reset_in"
         ]
       },

@@ -6,7 +6,7 @@
 <Project Version="7" Minor="55" Path="/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/zybo_z7_20_base_2021_1/hardware/zybo_z7_20_base_2021_1-vivado/zybo_z7_20_base_2021_1-vivado.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="34176735084841568a39b4eed1c53d8f"/>
+    <Option Name="Id" Val="dbc9a5cb88fc419c998320d1fe063c58"/>
     <Option Name="Part" Val="xc7z020clg400-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -75,13 +75,13 @@
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="4"/>
-    <Option Name="WTModelSimExportSim" Val="4"/>
-    <Option Name="WTQuestaExportSim" Val="4"/>
-    <Option Name="WTIesExportSim" Val="4"/>
-    <Option Name="WTVcsExportSim" Val="3"/>
-    <Option Name="WTRivieraExportSim" Val="3"/>
-    <Option Name="WTActivehdlExportSim" Val="3"/>
+    <Option Name="WTXSimExportSim" Val="2"/>
+    <Option Name="WTModelSimExportSim" Val="2"/>
+    <Option Name="WTQuestaExportSim" Val="2"/>
+    <Option Name="WTIesExportSim" Val="2"/>
+    <Option Name="WTVcsExportSim" Val="2"/>
+    <Option Name="WTRivieraExportSim" Val="2"/>
+    <Option Name="WTActivehdlExportSim" Val="2"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -105,11 +105,8 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="zybo_z7_20_base_2021_1.bd" FileRelPathName="ip/zybo_z7_20_base_2021_1_processing_system7_0_0/zybo_z7_20_base_2021_1_processing_system7_0_0.xci">
-          <Proxy FileSetName="zybo_z7_20_base_2021_1_processing_system7_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zybo_z7_20_base_2021_1.bd" FileRelPathName="ip/zybo_z7_20_base_2021_1_clk_wiz_0_0/zybo_z7_20_base_2021_1_clk_wiz_0_0.xci">
-          <Proxy FileSetName="zybo_z7_20_base_2021_1_clk_wiz_0_0"/>
+        <CompFileExtendedInfo CompFileName="zybo_z7_20_base_2021_1.bd" FileRelPathName="ip/zybo_z7_20_base_2021_1_proc_sys_reset_0_2/zybo_z7_20_base_2021_1_proc_sys_reset_0_2.xci">
+          <Proxy FileSetName="zybo_z7_20_base_2021_1_proc_sys_reset_0_2"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="zybo_z7_20_base_2021_1.bd" FileRelPathName="ip/zybo_z7_20_base_2021_1_proc_sys_reset_0_0/zybo_z7_20_base_2021_1_proc_sys_reset_0_0.xci">
           <Proxy FileSetName="zybo_z7_20_base_2021_1_proc_sys_reset_0_0"/>
@@ -117,8 +114,11 @@
         <CompFileExtendedInfo CompFileName="zybo_z7_20_base_2021_1.bd" FileRelPathName="ip/zybo_z7_20_base_2021_1_proc_sys_reset_0_1/zybo_z7_20_base_2021_1_proc_sys_reset_0_1.xci">
           <Proxy FileSetName="zybo_z7_20_base_2021_1_proc_sys_reset_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zybo_z7_20_base_2021_1.bd" FileRelPathName="ip/zybo_z7_20_base_2021_1_proc_sys_reset_0_2/zybo_z7_20_base_2021_1_proc_sys_reset_0_2.xci">
-          <Proxy FileSetName="zybo_z7_20_base_2021_1_proc_sys_reset_0_2"/>
+        <CompFileExtendedInfo CompFileName="zybo_z7_20_base_2021_1.bd" FileRelPathName="ip/zybo_z7_20_base_2021_1_clk_wiz_0_0/zybo_z7_20_base_2021_1_clk_wiz_0_0.xci">
+          <Proxy FileSetName="zybo_z7_20_base_2021_1_clk_wiz_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zybo_z7_20_base_2021_1.bd" FileRelPathName="ip/zybo_z7_20_base_2021_1_processing_system7_0_0/zybo_z7_20_base_2021_1_processing_system7_0_0.xci">
+          <Proxy FileSetName="zybo_z7_20_base_2021_1_processing_system7_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="zybo_z7_20_base_2021_1.bd" FileRelPathName="ip/zybo_z7_20_base_2021_1_proc_sys_reset_0_3/zybo_z7_20_base_2021_1_proc_sys_reset_0_3.xci">
           <Proxy FileSetName="zybo_z7_20_base_2021_1_proc_sys_reset_0_3"/>

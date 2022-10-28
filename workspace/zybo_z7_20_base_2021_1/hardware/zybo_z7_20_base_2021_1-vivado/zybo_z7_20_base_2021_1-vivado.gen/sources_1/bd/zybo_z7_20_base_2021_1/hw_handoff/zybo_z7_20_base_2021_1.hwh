@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Oct 23 18:01:20 2022" VIVADOVERSION="2021.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Oct 28 22:52:55 2022" VIVADOVERSION="2021.1">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo-z7-20:part0:1.0" DEVICE="7z020" NAME="zybo_z7_20_base_2021_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -2452,11 +2452,11 @@
         </PORT>
         <PORT DIR="O" NAME="locked" SIGIS="undef" SIGNAME="clk_wiz_0_locked">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="proc_sys_reset_0" PORT="dcm_locked"/>
-            <CONNECTION INSTANCE="proc_sys_reset_1" PORT="dcm_locked"/>
-            <CONNECTION INSTANCE="proc_sys_reset_2" PORT="dcm_locked"/>
-            <CONNECTION INSTANCE="proc_sys_reset_3" PORT="dcm_locked"/>
             <CONNECTION INSTANCE="proc_sys_reset_4" PORT="dcm_locked"/>
+            <CONNECTION INSTANCE="proc_sys_reset_3" PORT="dcm_locked"/>
+            <CONNECTION INSTANCE="proc_sys_reset_2" PORT="dcm_locked"/>
+            <CONNECTION INSTANCE="proc_sys_reset_1" PORT="dcm_locked"/>
+            <CONNECTION INSTANCE="proc_sys_reset_0" PORT="dcm_locked"/>
           </CONNECTIONS>
         </PORT>
         <PORT CLKFREQUENCY="100000000" DIR="O" NAME="clk_out2" SIGIS="clk" SIGNAME="clk_wiz_0_clk_out2">
@@ -3867,10 +3867,10 @@
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz_0" PORT="resetn"/>
             <CONNECTION INSTANCE="proc_sys_reset_0" PORT="ext_reset_in"/>
-            <CONNECTION INSTANCE="proc_sys_reset_1" PORT="ext_reset_in"/>
             <CONNECTION INSTANCE="proc_sys_reset_2" PORT="ext_reset_in"/>
             <CONNECTION INSTANCE="proc_sys_reset_3" PORT="ext_reset_in"/>
             <CONNECTION INSTANCE="proc_sys_reset_4" PORT="ext_reset_in"/>
+            <CONNECTION INSTANCE="proc_sys_reset_1" PORT="ext_reset_in"/>
             <CONNECTION INSTANCE="rst_ps7_0_50M" PORT="ext_reset_in"/>
           </CONNECTIONS>
         </PORT>
