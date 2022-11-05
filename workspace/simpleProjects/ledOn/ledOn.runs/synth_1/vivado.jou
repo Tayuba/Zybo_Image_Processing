@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Nov  5 00:05:01 2022
+# Process ID: 7020
+# Current directory: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/sinpleProjects/ledOn/ledOn.runs/synth_1
+# Command line: vivado -log simple1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source simple1_wrapper.tcl
+# Log file: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/sinpleProjects/ledOn/ledOn.runs/synth_1/simple1_wrapper.vds
+# Journal file: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/sinpleProjects/ledOn/ledOn.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source simple1_wrapper.tcl -notrace

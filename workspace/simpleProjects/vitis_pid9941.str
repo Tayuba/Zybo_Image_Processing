@@ -1,0 +1,130 @@
+/*
+
+Xilinx Vitis v2021.1.0 (64-bit) [Major: 2021, Minor: 1]
+SW Build 3245906 on 2021-06-09-18:10:55
+
+Process ID (PID): 9941
+License: Customer
+
+Current time: 	Sat Nov 05 00:23:08 CET 2022
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Ubuntu
+OS Version: 5.4.0-131-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0.0
+Screen size: 1920x1080
+Available screens: 2
+Available disk space: 68 GB
+
+Java version: 	11.0.2 64-bit
+Java home: 	/home/ayuba/tools/Xilinx/Vitis/2021.1/tps/lnx64/jre11.0.2
+Java executable location: 	/home/ayuba/tools/Xilinx/Vitis/2021.1/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /home/ayuba/tools/Xilinx/Vitis/2021.1/tps/lnx64/javafx-sdk-11.0.2/lib:/home/ayuba/tools/Xilinx/Vitis/2021.1/lib/lnx64.o/Ubuntu:/home/ayuba/tools/Xilinx/Vitis/2021.1/lib/lnx64.o:/home/ayuba/tools/Xilinx/Vitis/2021.1/tps/lnx64/jre11.0.2/lib/:/home/ayuba/tools/Xilinx/Vitis/2021.1/tps/lnx64/jre11.0.2/lib//server:/home/ayuba/tools/Xilinx/Vitis/2021.1/lib/lnx64.o:/home/ayuba/tools/Xilinx/Vitis/2021.1/lib/lnx64.o/Ubuntu:/home/ayuba/tools/Xilinx/Vitis/2021.1/lib/lnx64.o:/home/ayuba/tools/Xilinx/Vitis/2021.1/tps/lnx64/python-3.8.3/lib:/home/ayuba/tools/Xilinx/Vitis/2021.1/aietools/lib/lnx64.o:/home/ayuba/tools/Xilinx/Vitis/2021.1/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /home/ayuba/tools/Xilinx/Vitis/2021.1/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /home/ayuba/tools/Xilinx/Vitis
+
+User name: 	ayuba
+User home directory: /home/ayuba
+User working directory: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/sinpleProjects
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/ayuba/tools/Xilinx/Vitis
+HDI_APPROOT: /home/ayuba/tools/Xilinx/Vitis/2021.1
+RDI_DATADIR: /home/ayuba/tools/Xilinx/Vitis/2021.1/data
+RDI_BINDIR: /home/ayuba/tools/Xilinx/Vitis/2021.1/bin
+
+Vitis preferences directory: /home/ayuba/.Xilinx/Vitis/2021.1/
+Vitis workspace directory: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/sinpleProjects
+Vitis workspace log file location: /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/sinpleProjects/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_HLS: /home/ayuba/tools/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: /home/ayuba/tools/Xilinx/Vitis/2021.1
+XILINX_SDK: /home/ayuba/tools/Xilinx/Vitis/2021.1
+XILINX_VITIS: /home/ayuba/tools/Xilinx/Vitis/2021.1
+XILINX_VIVADO: /home/ayuba/tools/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: /home/ayuba/tools/Xilinx/Vivado/2021.1
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+setTextField("simplePlatform", "New Platform Project (Create new platform project)", "NewPlatformProjectWizard", "Text.PLATFORM_PROJECT_NAME");
+selectButton("Next", "New Platform Project (Create new platform project)", "NewPlatformProjectWizard", "Button.NEXT");
+selectButton("Browse", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Button.BROWSE");
+setFileDialog("/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/sinpleProjects/ledOn/simple1_wrapper.xsa", "Create Platform from XSA", "SDXFileDialog", "Button.OK");
+selectButton("Finish", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Button.FINISH");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("simplePlatform", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectMenuItem("File", "simplePlatform", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("New", "simplePlatform", "WorkbenchWindow", "MenuItem.NEW");
+selectMenuItem("Application Project", "simplePlatform", "WorkbenchWindow", "MenuItem.APPLICATION_PROJECT");
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+setTextField("Led", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Text.APPLICATION_PROJECT_NAME");
+selectButton("Back", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Back", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Back", "New Application Project (Domain)", "NewAppProjectWizard", "Button.BACK");
+setTextField("Led_app", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Text.APPLICATION_PROJECT_NAME");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Domain)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Finish", "New Application Project (Templates)", "NewAppProjectWizard", "Button.FINISH");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("helloworld.c", "Led_app_system > Led_app > src", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Search", "SearchView", "CTabItem.SEARCH");
+selectTreeTable("platform.h", "Led_app_system > Led_app > src", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("Led_app_system", "Led_app_system > Led_app > src", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "SDXAssistantView", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "Led_app_system > Led_app", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+activateView("Problems", "ProblemsView", "CTabItem.PROBLEMS");
+selectProblemsView("Errors", "ProblemsView", "TreeViewer.MarkerViewerContentProvider");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("Led_app_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Led_app_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Led_app_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectMenuItem("©", "Console", "WorkbenchWindow", "MenuItem.©");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("Led_app_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "Led_app_system > Led_app", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("Led_app_system", "Led_app_system > Led_app", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Run", "Assistant", "WorkbenchWindow", "MenuItem.RUN");
+selectMenuItem("Launch Hardware", "Led_app_system", "WorkbenchWindow", "MenuItem.LAUNCH_HARDWARE");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("Led_app_system", "Led_app_system > Led_app", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "Led_app_system", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("Exit", "Confirm Exit", "MessageDialogWithToggle", "Button.EXIT");
+// Exiting Xilinx Vitis with a status code '0' at 11/5/22, 2:22:41 AM CET
+// Elapsed time: 01:59:33
+
