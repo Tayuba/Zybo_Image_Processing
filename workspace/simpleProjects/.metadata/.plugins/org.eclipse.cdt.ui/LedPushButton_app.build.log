@@ -1,0 +1,39 @@
+04:31:46 **** Incremental Build of configuration Debug for project LedPushButton_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButtonPlatform/export/LedPushButtonPlatform/sw/LedPushButtonPlatform/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'driverInt':
+../src/helloworld.c:61:2: warning: implicit declaration of function 'configGpio' [-Wimplicit-function-declaration]
+   61 |  configGpio();
+      |  ^~~~~~~~~~
+../src/helloworld.c:59:6: warning: unused variable 'sataus' [-Wunused-variable]
+   59 |  int sataus;
+      |      ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:65:6: warning: conflicting types for 'configGpio'
+   65 | void configGpio(){
+      |      ^~~~~~~~~~
+../src/helloworld.c:61:2: note: previous implicit declaration of 'configGpio' was here
+   61 |  configGpio();
+      |  ^~~~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: LedPushButton_app.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButtonPlatform/export/LedPushButtonPlatform/sw/LedPushButtonPlatform/standalone_domain/bsplib/lib -o "LedPushButton_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: LedPushButton_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size LedPushButton_app.elf  |tee "LedPushButton_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20976	   1160	  22600	  44736	   aec0	LedPushButton_app.elf
+Finished building: LedPushButton_app.elf.size
+ 
+
+04:31:46 Build Finished (took 622ms)
+

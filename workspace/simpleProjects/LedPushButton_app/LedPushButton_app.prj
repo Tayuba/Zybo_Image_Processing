@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="LedPushButton_app" location="/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButton_app" platform="/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButtonPlatform/export/LedPushButtonPlatform/LedPushButtonPlatform.xpfm" platformUID="xilinx:zybo-z7-20::0.0(custom)" systemProject="LedPushButton_app_system" sysConfig="LedPushButtonPlatform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="d624e9884a8d9361b9fc3d07be0a414d">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.195378813">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1771311572" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

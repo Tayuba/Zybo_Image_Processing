@@ -1,0 +1,45 @@
+Nothing to build in platform 'LedPushButtonPlatform'
+
+04:31:46 **** Incremental Build of configuration Debug for project LedPushButton_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButtonPlatform/export/LedPushButtonPlatform/sw/LedPushButtonPlatform/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'driverInt':
+../src/helloworld.c:61:2: warning: implicit declaration of function 'configGpio' [-Wimplicit-function-declaration]
+   61 |  configGpio();
+      |  ^~~~~~~~~~
+../src/helloworld.c:59:6: warning: unused variable 'sataus' [-Wunused-variable]
+   59 |  int sataus;
+      |      ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:65:6: warning: conflicting types for 'configGpio'
+   65 | void configGpio(){
+      |      ^~~~~~~~~~
+../src/helloworld.c:61:2: note: previous implicit declaration of 'configGpio' was here
+   61 |  configGpio();
+      |  ^~~~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: LedPushButton_app.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButtonPlatform/export/LedPushButtonPlatform/sw/LedPushButtonPlatform/standalone_domain/bsplib/lib -o "LedPushButton_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: LedPushButton_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size LedPushButton_app.elf  |tee "LedPushButton_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20976	   1160	  22600	  44736	   aec0	LedPushButton_app.elf
+Finished building: LedPushButton_app.elf.size
+ 
+04:31:47 **** Incremental Build of configuration Debug for project LedPushButton_app_system ****
+make all 
+Generating bif file for the system project
+Executing command '::scw::generate_bif -xpfm /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButtonPlatform/export/LedPushButtonPlatform/LedPushButtonPlatform.xpfm -domains standalone_domain -bifpath /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButton_app_system/Debug/system.bif' on XSCT
+sdcard_gen --xpfm /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButtonPlatform/export/LedPushButtonPlatform/LedPushButtonPlatform.xpfm --sys_config LedPushButtonPlatform --bif /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButton_app_system/Debug/system.bif --bitstream /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButton_app/_ide/bitstream/PushButton_wrapper.bit --elf /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButton_app/Debug/LedPushButton_app.elf,ps7_cortexa9_0
+creating BOOT.BIN using /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButton_app/_ide/bitstream/PushButton_wrapper.bit
+Running /home/ayuba/tools/Xilinx/Vitis/2021.1/bin/bootgen  -image /home/ayuba/Zybo_Image_Processing/Zybo_Image_Processing/workspace/simpleProjects/LedPushButton_app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
